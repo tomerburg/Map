@@ -8,6 +8,9 @@ cd Map
 python setup.py install
 ```
 
+## Dependencies
+This module requires Python 3.6 or newer, MetPy 0.10 or newer, Cartopy and Matplotlib to work.
+
 ## Usage
 The purpose of this module is to provide usability similar to that of Basemap for plotting with Cartopy. For example, creating a PlateCarree projection can be done as follows, by creating an instance of a Map object:
 
