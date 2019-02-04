@@ -12,6 +12,7 @@ python setup.py install
 The purpose of this module is to provide usability similar to that of Basemap for plotting with Cartopy. For example, creating a PlateCarree projection can be done as follows, by creating an instance of a Map object:
 
 ```python
+from Map import Map
 m = Map(projection='PlateCarree',central_longitude=0.0,res='h')
 ```
 
