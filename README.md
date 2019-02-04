@@ -31,8 +31,8 @@ Geography can then be drawn similarly to Basemap's functionality. Note that if y
 
 ```python
 m.drawcoastlines(linewidth=1.0)
-m.drawcountries(lindwidth=1.0)
-m.drawstates(lindwidth=0.5,color='gray')
+m.drawcountries(linewidth=1.0)
+m.drawstates(linewidth=0.5,color='gray')
 ```
 
 Counties are also available, but since Cartopy doesn't have a county shapefile, this function makes use of MetPy's county shapefiles.
