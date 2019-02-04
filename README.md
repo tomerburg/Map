@@ -2,9 +2,11 @@
 This module serves as a Basemap-like wrapper for Cartopy.
 
 ## Installation
+```
 git clone https://github.com/tb1516/Map
 cd Map
 python setup.py install
+```
 
 ## Usage
 The purpose of this module is to provide usability similar to that of Basemap for plotting with Cartopy. For example, creating a PlateCarree projection can be done as follows, by creating an instance of a Map object:
