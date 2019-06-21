@@ -386,7 +386,7 @@ class Map():
         
         #Create colorbar
         fig.add_axes(ax_cb)
-        cb = plt.colorbar(cs, orientation=orientation, cax=ax_cb, **kwargs)
+        cb = plt.colorbar(mappable, orientation=orientation, cax=ax_cb, **kwargs)
         
         #Reset parent axis as the current axis
         fig.sca(ax)
