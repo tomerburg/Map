@@ -3,7 +3,7 @@ This module serves as a Basemap-like wrapper for Cartopy.
 
 ## Installation
 ```
-git clone https://github.com/tb1516/Map
+git clone https://github.com/tomerburg/Map
 cd Map
 python setup.py install
 ```
